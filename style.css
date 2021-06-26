@@ -1,0 +1,82 @@
+/* Couleurs :
+bleu : #0065FC
+bleu clair : #DEEBFF
+gris : #F2F2F2
+*/
+
+* {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+    display:flex;
+    justify-content: space-between;
+}
+
+footer, #hebergements_city, #hebergements_popular {
+    background-color: #F2F2F2;
+}
+
+.hebergement, .popular {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul, #filters ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+#hebergements {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hebergements_city {
+    flex: 2;
+    margin: 3%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#hebergements_city .title {
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+#hebergements_results {
+    flex-wrap: nowrap;
+    padding: 1%;
+}
+
+.hebergement {
+}
+
+#hebergements_popular {
+    flex: 1;
+    margin: 3%;
+    padding: 3%;
+}
+
+#hebergements_popular h2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
