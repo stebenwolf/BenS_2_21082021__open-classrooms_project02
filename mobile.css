@@ -1,0 +1,193 @@
+/* iPhone 8 : 375x667 */
+
+* {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#logo_subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0.9em;
+}
+
+#subscribe a {
+    font-weight: bold;
+    color: #0065FC;
+}
+
+nav {
+    background-color: r-ed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+nav li {
+    display: inline-flex;
+    justify-content: center;
+    width: 10.11em;
+    padding: 0.5em 0.8em 0.8em 0.8em;
+    border-bottom: 3px solid;
+    border-color: #F2F2F2;
+}
+
+.active {
+    border-color: #0065FC;
+}
+
+.active a {
+    color: #0065FC;
+}
+
+
+#search {
+    padding: 1.5em 0.8em 0 0.8em;
+}
+
+#search h1 {
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
+#search p {
+    font-size: 1em;
+}
+
+#search_form {
+    margin: 1.5em 0;
+    width: 95%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-radius: 0.75em;
+    border: 1px solid #F2F2F2;
+}
+
+#search_location {
+    background-color: #F2F2F2;
+    padding: 1.1em;
+    border-top-left-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+    font-size: 1.1em;
+}
+
+#search_input {
+    border: none;
+    padding: 1em;
+    font-weight: bold;
+    width: 90%;
+    font-size: 1.1em;
+}
+
+#search_button {
+    color: white;
+    padding: 1.2em;
+    background-color: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0.7em;
+    font-size: 1em;
+}
+
+#search_button_text {
+    display: none;
+    height: 100%;
+}
+
+#filters {
+    font-weight: bold;
+    margin: 0;
+}
+
+#filters p {
+    padding: 0.8em 0;
+    font-size: 1.1em;
+}
+
+#filters ul {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#filters li {
+    border: 2px solid #F2F2F2;
+    border-radius: 2em;
+    padding: 1em 1em 1em 0;
+    margin-bottom: 0.75em;
+    margin-right: 0.75em;
+}
+
+.icon {
+    border: 1px solid #DEEBFF;
+    background-color: #DEEBFF;
+    color:#0065FC;
+    border-radius: 5em;
+    padding: 1em;
+    margin-right: 0.5em;
+}
+
+#info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top:0.5em;
+}
+
+#info_icon {
+    border: 1px solid #DEEBFF;
+    padding: 0.7em 1em;
+    color:#0065FC;
+    border-radius: 5em;
+    font-size: 0.8em;
+}
+
+#info_text {
+    padding: 0.6em 0 0 0.5em;
+    font-size: 1em;
+}
+
+#hebergements_results {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #F2F2F2;
+}
+
+#hebergements_results img {
+    width: 100%;
+}
+
+#hebergements_popular {
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+}
+
+.hebergements_title {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.hebergements_title h2{
+    font-size: 1.3em;
+    
+}
