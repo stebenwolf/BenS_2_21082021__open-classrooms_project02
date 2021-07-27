@@ -114,6 +114,7 @@ nav a {
 #filters {
     font-weight: bold;
     margin: 0;
+    margin-bottom: 1.2rem;
 }
 
 #filters p {
@@ -128,20 +129,33 @@ nav a {
 }
 
 #filters li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     border: 2px solid #F2F2F2;
     border-radius: 2em;
-    padding: 1em 1em 1em 0;
-    margin-bottom: 0.75em;
-    margin-right: 0.75em;
+    padding-right: 1.2rem;
+    margin: 0 0.7rem 0.7rem 0;
 }
 
 .icon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     border: 1px solid #DEEBFF;
     background-color: #DEEBFF;
     color:#0065FC;
-    border-radius: 5em;
-    padding: 1em;
+    width: 30px;
+    height: 30px;
+    padding: 0.5rem;
+    text-align: center;
     margin-right: 0.5em;
+    border-radius: 5rem;
+}
+
+.icon i {
+    margin: auto;
+    font-size: 1.2rem;
 }
 
 #info {
@@ -348,12 +362,7 @@ h2 {
     font-size: 0.9em;
 }
 
-.wild_city_text {
-    width: 100%;
-    height: 10%;
-    padding: 0.5em 0.5em 0.8em 0.5em;
-    line-height: 1.4rem;
-}
+
 
 .wild_city_img {
     width: 100%;
@@ -362,12 +371,21 @@ h2 {
     border: 5px solid white;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-}
-
-.wild_city_img img {
     
 }
 
+.wild_city_img img {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+}
+
+.wild_city_text {
+    width: 100%;
+    padding: 0.5em 0.5em 0.8em 0.5em;
+    line-height: 1.4rem;
+}
 
 .more {
     flex: 1;
