@@ -30,7 +30,6 @@ a {
 }
 
 nav {
-    background-color: r-ed;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -280,7 +279,7 @@ h2 {
     row-gap: 0.5em;
 }
 
-.hebergement_city_card {
+/* .hebergement_city_card {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -316,7 +315,7 @@ h2 {
 .hebergement_city_text p {
     width: 100%;
     padding-bottom: 0.3em;
-}
+} */
 
 .rating i {
     letter-spacing: -0.25em;
@@ -326,35 +325,12 @@ h2 {
     margin-top: 1em;
 }
 
-#hebergement_city_card_1 .hebergement_city_img {
-    background-image: url('/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
-}
-
-#hebergement_city_card_2 .hebergement_city_img {
-    background-image: url('/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg');
-}
-
-#hebergement_city_card_3 .hebergement_city_img {
-    background-image: url('/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg');
-}
-
-#hebergement_city_card_4 .hebergement_city_img {
-    background-image: url('/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
-}
-
-#hebergement_city_card_5 .hebergement_city_img {
-    background-image: url('/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
-}
-
-#hebergement_city_card_6 .hebergement_city_img {
-    background-image: url('/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
-}
-
-.wild_city_card {
+.hebergement_city_card {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    max-height: 190px;
     background-color: white;
     border-radius: 1em;
     box-shadow: 0px 0px 10px rgb(215, 215,215);   
@@ -364,27 +340,27 @@ h2 {
 
 
 
-.wild_city_img {
+.hebergement_city_img {
     width: 100%;
-    height: 20%;
+    height: calc(60% - 10px);
     overflow: hidden;
     border: 5px solid white;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-    
 }
 
-.wild_city_img img {
+.hebergement_city_img img {
     width: 100%;
     height: 100%;
     object-position: 50% 50%;
     object-fit: cover;
 }
 
-.wild_city_text {
+.hebergement_city_text {
     width: 100%;
-    padding: 0.5em 0.5em 0.8em 0.5em;
-    line-height: 1.4rem;
+    height: calc(40% - 1em);
+    padding: 0em 0.5em 0.8em 0.5em;
+    line-height: 1.35rem;
 }
 
 .more {
@@ -436,7 +412,7 @@ h2 {
 }
 
 .activity_text {
-    height: calc(30%-30px);
+    height: calc(30% - 30px);
     font-weight: bold;
     padding: 15px;
     font-size: 1rem;
