@@ -30,7 +30,8 @@ a {
     color: #0065FC;
 }
 
-.active {
+.active,
+#search_button {
     border-color: #0065FC;
 }
 
@@ -39,7 +40,9 @@ a {
     background-color: #0065FC;
 }
 
-nav a {
+nav a,
+#search_form, 
+#filters li {
     border-color: #F2F2F2;
 }
 
@@ -62,12 +65,26 @@ footer {
     background-color: white;
 }
 
+.hebergement_popular_img,
+.hebergement_city_img {
+    border-color: white;
+}
+
 .rating {
     color: #bebebe;
 }
 
 footer a {
     color:rgb(59, 59, 59);
+}
+
+.icon {
+    background-color: #DEEBFF;
+}
+
+.icon,
+#info_icon {
+    border-color: #DEEBFF;
 }
 
 /* Colors -- fin */
@@ -104,8 +121,6 @@ nav a {
     border-bottom: 3px solid;
 }
 
-
-
 #search {
     padding: 1.5em 0.8em 2em 0.8em;
 }
@@ -130,7 +145,7 @@ nav a {
     justify-content:space-between;
     flex-wrap: nowrap;
     border-radius: 0.75em;
-    border: 1px solid #F2F2F2;
+    border: 1px solid;
 }
 
 #search_location {
@@ -150,7 +165,7 @@ nav a {
 
 #search_button {
     padding: 1.2em;
-    border: 1px solid #0065FC;
+    border: 1px solid;
     border-radius: 0.7em;
     font-size: 1em;
 }
@@ -181,7 +196,7 @@ nav a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 2px solid #F2F2F2;
+    border: 2px solid;
     border-radius: 2em;
     padding-right: 1.2rem;
     margin: 0 0.7rem 0.7rem 0;
@@ -191,8 +206,7 @@ nav a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid #DEEBFF;
-    background-color: #DEEBFF;
+    border: 1px solid;
     width: 30px;
     height: 30px;
     padding: 0.5rem;
@@ -215,7 +229,7 @@ nav a {
 }
 
 #info_icon {
-    border: 1px solid #DEEBFF;
+    border: 1px solid;
     padding: 0.7em 1em;
     border-radius: 5em;
     font-size: 0.8em;
@@ -274,7 +288,7 @@ h2 {
 }
 
 .hebergement_popular_img {
-    border: 5px solid white;
+    border: 5px solid;
     border-right: 0px;
     height: 100%;
     width: 40%;
@@ -336,7 +350,7 @@ h2 {
     width: 100%;
     height: calc(60% - 10px);
     overflow: hidden;
-    border: 5px solid white;
+    border: 5px solid;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
