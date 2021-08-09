@@ -1,0 +1,243 @@
+@media (min-width:768px) {
+
+    html {
+        padding: 0 2.55rem;
+    }
+
+    #logo_subscribe {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 0;
+        height: 60px;
+        padding-bottom: 2rem;
+    }
+
+    #logo {
+        order: 1;
+        flex-grow: 5;
+        height: 100%;
+        padding-top: 6.3rem;
+    }
+    
+    #subscribe {
+        order: 3;
+        height: 100%;
+        margin-top: 6.4em;
+    }
+
+    header nav {
+        order: 2;
+        width: 30%;
+        height: 100%;
+        align-items: flex-start;
+    }
+    
+    header nav a {
+        width: 50%;
+        padding: 3em 0.8em 0.8em 0.8em;
+        border-bottom: 0px;
+        margin-top: 3px;
+    }
+
+    header .active {
+        border-top: 3px solid;
+        margin-top: 0;
+    }
+
+    #search p {
+        margin-top: -0.5em;
+    }
+
+    #search_form {
+        width: 410px;
+        margin-top: 1.5em;
+    }
+
+    #search_button {
+        border-bottom-left-radius: 0em ;
+        border-top-left-radius: 0em;
+    }
+    #search_button_icon {
+        display: none;
+    }
+    #search_button_text {
+        display: inline;
+        font-weight: 700;
+    }
+
+    #filters {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-top: 1em;
+    }
+
+    #filters p {
+        margin-top: 0.1em;
+        padding-right: 2.5em;
+    }
+    
+    #info_icon {
+        margin-top: 0.15em;
+        margin-right: 0.15em;
+        padding: 0.4em 0.8em;
+    }
+
+    #hebergements {
+        display: flex;
+        margin-bottom: 2.5rem;
+    }
+
+    #hebergements_popular, #hebergements_city {
+        border-radius: 1.25em;
+        padding: 2.5em;
+    }
+
+    #hebergements_popular {
+        width: 340px;
+        order: 2;
+        margin-left: 2.5rem;
+    }
+
+    #hebergements_popular .hebergements_title {
+        width: 350px;
+        margin: 0 -0.8rem;
+    }
+
+    .hebergements_popular_cards {
+        row-gap: 1.8rem;
+        column-gap: 1.8rem;
+    }
+
+    #hebergements_city {
+        width: 800px;
+        order: 1;
+    }
+
+    #hebergements_city {
+        background-color: #F2F2F2;
+    }
+
+    .hebergements_city_cards {
+        row-gap: 1.8rem;
+        column-gap: 1.8rem;
+    }
+
+    .hebergement_city_card {
+        width: 245px;
+        max-height: 200px;
+    }
+
+    #activites {
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        justify-content: left;
+    }
+
+    .activity_cards_1, .activity_cards_2, .activity_cards_3, .activity_cards_4 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 42px;
+    }
+
+    .activity_cards_1, .activity_cards_2, .activity_cards_3 {
+        padding-right: 27px;
+    }
+
+    .activity_card {
+        width: 300px;
+        flex-wrap: wrap;
+        min-height: 0rem;
+    }
+
+    .activity_text {
+        height: 20px;
+        padding: 15px;
+    }
+
+    .activity_img {
+        height: 0px;
+    }
+
+    .h100 {
+        height: 445px;
+    }
+
+    .h70 {
+        height: 235px;
+    }
+
+    .h30 {
+        height: 165px;
+    }
+
+    .h40 {
+        height: 195px;
+    }
+
+    .h60 {
+        height: 208px;
+    }
+
+    .h100 .activity_img,
+    .h70 .activity_img,
+    .h60 .activity_img,
+    .h40 .activity_img,
+    .h30 .activity_img {
+        height: calc(100% - 55px);
+    }
+
+    #activity_card_1 img,
+    #activity_card_4 img {
+        width: 220%; 
+        margin-top: 0;
+        position: relative;
+        right: 60%;
+    }
+
+    #activity_card_2 img {
+        width: 100%;
+        position: relative;
+        top: 20%;
+    }
+
+    #activity_card_3 img {
+        width: 100%;
+        margin-top: -5%;
+        overflow: hidden;
+    }
+
+    #activity_card_4 img {
+        filter: contrast(90%) brightness(130%) sepia(20%) saturate(1.2);
+    }
+
+    #activity_card_5 img {
+        width: 100%;
+        margin-top: 0%;
+        overflow: hidden;
+    }
+
+    #activity_card_6 img {
+        width: 100%;
+        margin-top: -2.5%;
+        overflow: hidden;
+    }
+
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        margin-left: -3em;
+        margin-right: -3em;
+        padding-top: 1.4em;
+        padding-left: 3em;
+        
+    }
+
+    #footer_left,
+    #footer_center,
+    #footer_right {
+        width: 33%;
+    }
+}
