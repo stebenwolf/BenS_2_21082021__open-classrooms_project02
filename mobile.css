@@ -310,7 +310,12 @@ h2 {
     padding: 2.5em 1em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+}
+
+@media (min-width: 400px) and (max-width: 1439px) {
+    #hebergements_city {
+        justify-content: center;
+    }
 }
 
 .hebergements_city_cards {
