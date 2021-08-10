@@ -1,40 +1,46 @@
-@media (min-width:768px) {
+@media (min-width:1440px) {
     
     html {
-        padding: 0 2.55rem;
+        display: flex;
+        justify-content: center;
     }
 
-    #logo_subscribe {
+    body, header, main, .footer_content {
         display: flex;
-        flex-wrap: nowrap;
-        margin-top: 0;
-        height: 60px;
-        padding-bottom: 2rem;
+        flex-wrap: wrap;
+        max-width: calc(1440px - 2em);
+        padding: 0 2em;
+        justify-content: space-between;
+    }
+
+    header {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
 
     #logo {
+        min-inline-size: 200%;
+        display: flex;
         order: 1;
-        flex-grow: 5;
+        
         height: 100%;
         padding-top: 6.3rem;
     }
-    
-    #subscribe {
-        order: 3;
-        height: 100%;
-        margin-top: 6.4em;
-    }
 
     header nav {
+        float: right;
         order: 2;
-        width: 30%;
+        display: flex;
+        min-inline-size: 90%;
         height: 100%;
         align-items: flex-start;
+        justify-content: end;
     }
     
     header nav a {
-        width: 50%;
-        padding: 3em 0.8em 0.8em 0.8em;
+        width: 37%;
+        padding: 3em 0.8em 0.8em 0em;
         border-bottom: 0px;
         margin-top: 3px;
     }
@@ -42,6 +48,30 @@
     header .active {
         border-top: 3px solid;
         margin-top: 0;
+    }
+
+    #logo_subscribe {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 0;
+        /* margin-right: 1.5rem; */
+        height: 60px;
+        padding-bottom: 2rem;
+        padding-right: 3.6rem;
+    }
+
+    
+    
+    #subscribe {
+        order: 3;
+        height: 100%;
+        margin-top: 6.4em;
+    }
+
+    
+
+    #logo, #search p, #search h1, #search_form {
+        margin-left: -0.5rem;
     }
 
     #search p {
@@ -111,6 +141,7 @@
     #hebergements_city {
         width: 800px;
         order: 1;
+        justify-content: flex-start;
     }
 
     #hebergements_city {
@@ -135,10 +166,10 @@
     }
 
     .activity_cards_1, .activity_cards_2, .activity_cards_3, .activity_cards_4 {
-        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         row-gap: 42px;
+        
     }
 
     .activity_cards_1, .activity_cards_2, .activity_cards_3 {
@@ -226,18 +257,23 @@
 
 
     footer {
+        width: 500vw;
         display: flex;
+        overflow: hidden;
+        padding: 1rem 0rem;
+        margin-left: -10rem;
+    }
+
+    .footer_content{
+        margin-left: 10rem;
+        display: flex;
+        width: calc(100vw);
         justify-content: space-around;
-        margin-left: -3em;
-        margin-right: -3em;
-        padding-top: 1.4em;
-        padding-left: 3em;
-        
     }
 
     #footer_left,
     #footer_center,
     #footer_right {
-        width: 33%;
+        width: 33.33%;
     }
 }
