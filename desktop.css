@@ -3,6 +3,8 @@
     html {
         display: flex;
         justify-content: center;
+        
+        overflow-x: hidden;
     }
 
     body, header, main, .footer_content {
@@ -257,15 +259,14 @@
 
 
     footer {
-        width: 500vw;
+        min-width: 5000vw;
         display: flex;
-        overflow: hidden;
-        padding: 1rem 0rem;
-        margin-left: -10rem;
+        padding: 1rem 0rem 3rem 0rem;
+        margin-left: -100rem;
     }
 
     .footer_content{
-        margin-left: 10rem;
+        margin-left: 100rem;
         display: flex;
         width: calc(100vw);
         justify-content: space-around;
